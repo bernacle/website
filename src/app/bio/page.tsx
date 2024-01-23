@@ -24,7 +24,7 @@ export default async function Bio() {
               manage
             </p>
             <p className="text-white text-base p-4">
-              Eager to ride the wave of new technologies and level up my skills,
+              Eager to ride the wave of new technologies and level up my skills,{' '}
               {`I'm`} always up for a new challenge.
             </p>
             <p className="text-white text-base p-4">
