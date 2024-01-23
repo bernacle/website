@@ -77,15 +77,6 @@ export const RESUME_DATA = {
       description: `With a compact team of developers and one project manager, we successfully scoped and built an application to automate the API design process for the Open Finance initiative at Banco do Brasil. Developed using Node.js and PostgreSQL, this application was specifically designed to streamline the bank's workflow by minimizing the time dedicated to manual API design.`,
     },
     {
-      company: 'Combinis',
-      link: '#',
-      badges: ['remote'],
-      title: 'Full Stack Developer & Co-Founder',
-      start: '2019',
-      end: '2020',
-      description: `As a full-stack developer, I collaborated with three co-founders to build and launch an internal classified advertisements app for employees of large companies. Leveraging React Native for the mobile app and Firebase for the backend. Within a week of release, the app achieved 2000 downloads, and that was a significant achievement for the entire team. Unfortunately, the pandemic led to the app's discontinuation, but the journey was an incredible learning experience for me.`,
-    },
-    {
       company: 'Banco do Brasil',
       link: 'https://bb.com.br',
       badges: ['onsite'],
