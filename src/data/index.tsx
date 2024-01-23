@@ -77,16 +77,6 @@ export const RESUME_DATA = {
       description: `With a compact team of developers and one project manager, we successfully scoped and built an application to automate the API design process for the Open Finance initiative at Banco do Brasil. Developed using Node.js and PostgreSQL, this application was specifically designed to streamline the bank's workflow by minimizing the time dedicated to manual API design.`,
     },
     {
-      company: 'Crowdbotics',
-      link: 'https://www.crowdbotics.com/',
-      badges: ['remote', 'freelance'],
-      title: 'React Native Developer',
-      start: '2020',
-      end: '2020',
-      description:
-        'Delivered a React Native mobile app for a medical and aesthetic business, enhancing patient experience and streamlining appointment scheduling. The app had some great features, such as live map with directions, in-app payments using Square, upload of images and PDF documents and chat messages.',
-    },
-    {
       company: 'Combinis',
       link: '#',
       badges: ['remote'],
