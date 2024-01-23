@@ -88,6 +88,7 @@ export const RESUME_DATA = {
     },
     {
       company: 'Combinis',
+      link: '#',
       badges: ['remote'],
       title: 'Full Stack Developer & Co-Founder',
       start: '2019',
