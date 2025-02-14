@@ -1,30 +1,37 @@
-import Tabs from '@/components/ui/tabs'
-import { ExternalLink } from 'lucide-react'
+import Tabs from "@/components/ui/tabs";
+import { ExternalLink } from "lucide-react";
 
 interface ProjectData {
-  title: string
-  description: string
-  techStack: string[]
-  github?: string
-  liveUrl?: string
+  title: string;
+  description: string;
+  techStack: string[];
+  github?: string;
+  liveUrl?: string;
 }
 
 const projects: ProjectData[] = [
   {
-    title: 'Logfolio',
+    title: "Logfolio",
     description:
-      'Logfolio is a productivity tool designed to help professionals keep a comprehensive record of their daily work achievements. By logging work entries via web or CLI, users can generate AI-driven summaries tailored for performance reviews, job applications, and interview preparation.',
-    techStack: ['Next.js', 'TypeScript', 'TailwindCSS', 'Firebase', 'Groq'],
-    liveUrl: 'https://logfolio.com',
+      "Logfolio is a productivity tool designed to help professionals keep a comprehensive record of their daily work achievements. By logging work entries via web or CLI, users can generate AI-driven summaries tailored for performance reviews, job applications, and interview preparation.",
+    techStack: ["Next.js", "TypeScript", "TailwindCSS", "Firebase", "Groq"],
+    liveUrl: "https://logfolio.com",
   },
   {
-    title: 'Voice App',
+    title: "Voice App",
     description:
-      'A voice-powered app that captures user input, transcribes it, understands requests, and streams responses back as natural audio. It offers seamless, hands-free AI interactions.',
-    techStack: ['Next.js', 'TypeScript', 'TailwindCSS', 'Deepgram', 'Groq'],
-    github: 'https://voice-app.brunosimplicio.com',
+      "A voice-powered app that captures user input, transcribes it, understands requests, and streams responses back as natural audio. It offers seamless, hands-free AI interactions.",
+    techStack: ["Next.js", "TypeScript", "TailwindCSS", "Deepgram", "Groq"],
+    github: "https://voice-app.brunosimplicio.com",
   },
-]
+  {
+    title: "Storytelling API",
+    description:
+      "The Storytelling API allows users to submit scripts and analyze their content to extract moods, themes, emotions, and more. It also provides the capability to generate media such as images, voices, and videos based on the analyzed script",
+    techStack: ["Nodejs", "TypeScript", "Fastify", "Prisma", "BullMQ", "Groq"],
+    github: "https://github.com/bernacle/storytelling",
+  },
+];
 
 export default function Projects() {
   return (
@@ -88,5 +95,5 @@ export default function Projects() {
         </section>
       </main>
     </>
-  )
+  );
 }
